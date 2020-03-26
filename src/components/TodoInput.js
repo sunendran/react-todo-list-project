@@ -2,8 +2,14 @@ import React, { Component } from 'react'
 
 export default class TodoInput extends Component {
     render() {
+        const {item,handleChange,handleSubmit,editItem}=this.props;
         return (
-            <h2>todoinput</h2>
+
+            <div className="card card-body my-3">
+                <form onSubmit={handleSubmit}>
+
+                </form>
+            </div>
         )
     }
 }
